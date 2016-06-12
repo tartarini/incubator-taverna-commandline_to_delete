@@ -135,7 +135,7 @@ public class InputsHandler {
 					"The was an internal error setting up the URL to open the inputs. You should contact Taverna support.",
 					e1);
 		}
-
+                // FIX typo here
 		if (options.hasInputFiles()) {
 			regesterInputsFromFiles(portMap, options, inputs, url);
 		}
